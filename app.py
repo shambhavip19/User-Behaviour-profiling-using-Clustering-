@@ -8,12 +8,15 @@ model = joblib.load('kmeans_k4.pkl')
 
 # Cluster labels based on your results
 cluster_profiles = {
-    0: ("Moderate Older User", "You use your phone steadily and consistently. Not too much, not too little — just habitual, reliable usage."),
-    1: ("Power User", "You are heavily engaged with your phone. High screen time, high data, high everything. Your phone is basically an extension of you."),
-    2: ("Minimal User", "You use your phone sparingly. Calls, maybe messages — that's about it. Your battery thanks you."),
-    3: ("Active Young User", "You're active on your phone with solid app usage. Likely social media, entertainment, or gaming keeps you engaged.")
+    0: ("Moderate Older User",
+        "Your phone usage is steady and intentional. You know what you use it for and stick to that — no endless scrolling or chasing new apps. Usage is spread across the day rather than concentrated in long sessions, and your data consumption reflects someone who's online but not constantly."),
+    1: ("Power User",
+        "Your phone sees heavy use across the board , long screen time, high data, lots of apps. You're likely juggling multiple things at once, whether that's work, social media, or entertainment. The phone is rarely far from reach and almost always in use."),
+    2: ("Minimal User",
+        "You keep phone usage to the essentials. Screen time is low, data consumption is minimal, and the apps installed reflect actual needs rather than impulse downloads. You're reachable, but the phone doesn't dominate your day."),
+    3: ("Active Young User",
+        "You have strong engagement across apps and a decent amount of screen time, but it's not excessive. Social media, entertainment, and messaging likely make up the bulk of it. You're comfortable with technology and pick up new apps fairly easily.")
 }
-
 st.title("What kind of phone user are you?")
 st.write("Adjust the sliders based on your daily phone habits and find out your user profile.")
 
