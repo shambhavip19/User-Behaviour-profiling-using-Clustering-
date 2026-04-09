@@ -1,6 +1,3 @@
-Here you go:
-
----
 
 # User Behavior Profiling using K-Means Clustering and PCA
 Grouping mobile phone users based on their digital behavior patterns using unsupervised learning.
