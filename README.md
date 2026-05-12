@@ -41,7 +41,7 @@ K=4 gave the most interpretable clusters. K=3 collapsed age differences entirely
 - `pandas`, `numpy` for data handling
 - `matplotlib` for visualization
 - `scikit-learn` for clustering, PCA, and preprocessing
-- `streamlit`, `joblib` for web app and model export
+- `streamlit`, `joblib` for web app and model export 
 
 ## What I Learned
 - How unsupervised learning differs from supervised, no labels, no right answer
